@@ -2,5 +2,8 @@
 
 Helm + Helm_Secrets + Sops + kubectl
 
-ENV SOPS_AGE_KEY=""
-ENV SOPS_AGE_RECIPIENTS=""
+ENVS:
+
+SOPS_AGE_KEY or SOPS_AGE_KEY
+
+SOPS_AGE_RECIPIENTS
