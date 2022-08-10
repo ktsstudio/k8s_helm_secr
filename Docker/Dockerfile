@@ -3,5 +3,6 @@ FROM dtzar/helm-kubectl:latest
 RUN helm plugin install https://github.com/jkroepke/helm-secrets --version v3.12.0
 
 COPY sops /usr/bin/sops
+COPY kubedog /usr/bin/kubedog
 
 RUN apk add --no-cache gpg gpg-agent
